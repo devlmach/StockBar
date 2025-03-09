@@ -23,8 +23,8 @@ public class vendas {
     private Date date;
 
     @ManyToOne
-    @JoinColumn(name = "id_cliente")
-    private cliente cliente;
+    @JoinColumn(name = "id_usuario")
+    private usuario usuario;
 
     @ManyToOne
     @JoinColumn(name = "id_produto")
